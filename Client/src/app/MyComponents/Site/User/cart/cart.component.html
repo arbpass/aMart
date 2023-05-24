@@ -1,0 +1,34 @@
+<ul class="list-group mt-2">
+    <ng-container *ngFor="let item of localCartList">
+        <li class="list-group-item d-flex justify-content-between align-items-center bg-{{service.mode}}" *ngIf="item.amount > 0">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-danger btn-sm" (click)="decreaseInCart(item)">-</button>
+                <button type="button" class="btn btn-outline-success btn-sm" (click)="increaseInCart(item)">+</button>
+            </div>
+            <span class="text-{{this.service.modeSideEffect}} mx-2 fs-5">{{item.name}}</span>
+            <span class="text-secondary fw-light">{{item.details}}</span>
+            <span class="badge bg-secondary rounded-pill">Rs. {{item.price | currency: 'INR' : 'symbol' : '1.0-0'}} x
+                {{item.amount}}</span>
+        </li>
+    </ng-container>
+
+    <form class="text-end border p-3 mr-auto rounded mt-3 bg-{{service.mode}}" *ngIf="totalPrice() > 0 && payRequestForm" [formGroup]="payRequestForm" #form="ngForm" id="contact_form">
+        <h4 class="mt-2 text-secondary mb-2">Total Cost: {{totalPrice() | currency: 'INR' : 'symbol' : '1.0-0'}}</h4>
+        <input readonly placeholder="Name" class="form-control mb-2 bg-{{this.service.mode}} text-{{this.service.modeSideEffect}}" type="text" formControlName="Name" required>
+        <input readonly placeholder="E-Mail Address" class="form-control mb-2 bg-{{this.service.mode}} text-{{this.service.modeSideEffect}}" type="text" formControlName="Email" required>
+        <input readonly placeholder="Phone" class="form-control mb-2 bg-{{this.service.mode}} text-{{this.service.modeSideEffect}}" type="text" formControlName="PhoneNumber" required>
+        <input placeholder="Address" class="form-control mb-2 bg-{{this.service.mode}} text-{{this.service.modeSideEffect}}" type="text" formControlName="Address" required>
+        <input hidden class="form-control mb-2" type="text" formControlName="Amount" required>
+        <button type="submit" class="btn btn-outline-{{service.modeSideEffect}} text-info rounded" (click)="confirmOrder()" [disabled]="!payRequestForm.valid">Confirm Order</button>
+    </form>
+</ul>
+
+
+<div class="jumbotron text-center" *ngIf="localCartList.length == 0">
+    <img class="img-fluid" alt="Responsive image" src="https://www.ruuhbythebrandstore.com/images/cart_is_empty.png"/>
+    <hr class="my-4">
+    <p class="text-{{service.modeSideEffect}}">All your items that is added to cart will be shown here.</p>
+    <p class="lead">
+        <a routerLink="/" class="btn btn-warning btn-lg">Order Now <fa-icon [icon]="faShoppingBag"></fa-icon></a>
+    </p>
+</div>

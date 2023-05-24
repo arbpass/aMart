@@ -1,0 +1,20 @@
+<table class="table text-{{serviceUser.modeSideEffect}}">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">UserId</th>
+            <th scope="col">Orders (Product IDs)</th>
+            <th scope="col">Price</th>
+            <th scope="col">Order Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of allOrders; let i=index">
+            <th scope="row">{{i+1}}</th>
+            <td>{{item.userGuid}}</td>
+            <td>{{item.orders}}</td>
+            <td>{{item.orderPrice | currency: 'INR' : 'symbol' : '1.0-0'}}</td>
+            <td class="text-danger">{{item.orderTime}}</td>
+        </tr>
+    </tbody>
+</table>

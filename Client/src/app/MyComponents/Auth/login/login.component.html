@@ -1,0 +1,15 @@
+<div class="container mt-5 w-50">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-{{service.modeSideEffect}}">Username</label>
+            <input type="text" formControlName="Username" class="form-control bg-{{service.mode}} text-{{service.modeSideEffect}}" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your info with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-{{service.modeSideEffect}}">Password</label>
+            <input type="password" formControlName="Password" class="form-control bg-{{service.mode}} text-{{service.modeSideEffect}}" id="exampleInputPassword1">
+        </div>
+        <a class="text-secondary text-decoration-none" routerLink="/register">If not registered yet, click here!</a><br>
+        <button type="submit" class="btn btn-outline-{{service.modeSideEffect}} mt-2">Login</button>
+    </form>
+</div>

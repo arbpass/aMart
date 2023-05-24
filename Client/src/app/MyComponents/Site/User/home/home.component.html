@@ -1,0 +1,55 @@
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://www.pngmart.com/files/21/iPhone-13-PNG-Isolated-Pic.png" class="d-block w-50 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.pngmart.com/files/13/Smartwatch-PNG-Pic.png" class="d-block w-50 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.pngmart.com/files/7/Gadget-PNG-Transparent.png" class="d-block w-50 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.pngmart.com/files/7/Mac-PNG-HD.png" class="d-block w-50 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.pngmart.com/files/7/Computer-Motherboard-PNG-Photos.png" class="d-block w-50 mx-auto" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<div class="mb-3 pointer-cursor text-center mb-5">
+    <a routerLink="/" class="badge bg-{{service.modeSideEffect}} text-danger mx-2 rounded-pill text-decoration-none fs-6">General</a>
+    <a routerLink="{{item.value}}" class="badge bg-{{service.modeSideEffect}} text-danger mx-2 rounded-pill text-decoration-none fs-6"
+        *ngFor="let item of categories | keyvalue">{{item.key}}</a>
+</div>
+
+
+<div class="row row-cols-1 row-cols-md-5 g-5">
+    <div class="col mb-4" *ngFor="let item of service.products; let i = index">
+        <div class="card bg-{{service.mode}} border border-{{service.modeSideEffect}} h-100">
+            <img src="{{item.image}}" class="card-img-top p-1 h-100" alt="...">
+            <div class="card-body text-{{service.modeSideEffect}}">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text">{{item.details}}</p>
+                <p class="card-text">Price: {{item.price | currency: 'INR' : 'symbol' : '1.0-0'}}</p>
+                <button class="btn btn-secondary btn-sm text-light fw-light" (click)="addToCart(item)">
+                    <fa-icon [icon]="faCartPlus"></fa-icon> Add to cart
+                </button>
+
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {{item.category}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

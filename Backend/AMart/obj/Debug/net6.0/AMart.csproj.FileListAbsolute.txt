@@ -1,0 +1,198 @@
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\appsettings.json
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\AMart.exe
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\AMart.deps.json
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\AMart.runtimeconfig.json
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\AMart.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\AMart.pdb
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Domain.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Domain.pdb
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.csproj.AssemblyReference.cache
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.AssemblyInfoInputs.cache
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.AssemblyInfo.cs
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.csproj.CoreCompileInputs.cache
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\staticwebassets\msbuild.AMart.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\staticwebassets\msbuild.build.AMart.props
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AMart.props
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AMart.props
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\scopedcss\bundle\AMart.styles.css
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.csproj.CopyComplete
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.dll
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\refint\AMart.dll
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.pdb
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\AMart.genruntimeconfig.cache
+C:\Users\Ayush\source\repos\AMart\AMart\obj\Debug\net6.0\ref\AMart.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Ayush\source\repos\AMart\AMart\bin\Debug\net6.0\RazorPay Core.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\appsettings.Development.json
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\appsettings.json
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\AMart.exe
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\AMart.deps.json
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\AMart.runtimeconfig.json
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\AMart.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\AMart.pdb
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Azure.Core.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Azure.Identity.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Humanizer.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\RazorPay Core.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.CodeDom.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Text.Json.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Domain.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Infrastructure.dll
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Domain.pdb
+D:\Web Development\ASP\AMart\Backend\AMart\bin\Debug\net6.0\Infrastructure.pdb
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.csproj.AssemblyReference.cache
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.AssemblyInfoInputs.cache
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.AssemblyInfo.cs
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.csproj.CoreCompileInputs.cache
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.MvcApplicationPartsAssemblyInfo.cs
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.MvcApplicationPartsAssemblyInfo.cache
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\staticwebassets\msbuild.AMart.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\staticwebassets\msbuild.build.AMart.props
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AMart.props
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AMart.props
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\staticwebassets.build.json
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\staticwebassets.development.json
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\scopedcss\bundle\AMart.styles.css
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.csproj.CopyComplete
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.dll
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\refint\AMart.dll
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.pdb
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\AMart.genruntimeconfig.cache
+D:\Web Development\ASP\AMart\Backend\AMart\obj\Debug\net6.0\ref\AMart.dll

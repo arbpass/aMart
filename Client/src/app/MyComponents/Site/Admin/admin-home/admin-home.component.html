@@ -1,0 +1,161 @@
+<div class="text-center">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-outline-info fw-light mb-4 rounded-pill" data-bs-toggle="modal"
+        data-bs-target="#exampleModal"> Add Product </button>
+</div>
+
+<!-- Modal to add product -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-info">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Add New Product</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form [formGroup]="productForm" #form="ngForm">
+                <div class="modal-body bg-{{serviceUser.mode}}">
+
+                    <div class="mb-3">
+                        <label class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Name</label>
+                        <input type="text" formControlName="Name"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Price</label>
+                        <input type="text" formControlName="Price"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Image</label>
+                        <input type="text" formControlName="Image"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1"
+                            class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Details</label>
+                        <input type="text" formControlName="Details"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1"
+                            class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Category</label>
+                        <input type="text" formControlName="Category"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1"
+                            class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Stock</label>
+                        <input type="text" formControlName="Stock"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light">
+                    </div>
+                </div>
+                <div class="modal-footer bg-{{serviceUser.mode}}">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-info" data-bs-dismiss="modal" (click)="onSubmit()"
+                        [disabled]="!productForm.valid">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Modal to edit product -->
+<div class="modal fade" id="exampleModalEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-warning">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Product</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form [formGroup]="editForm" #form="ngForm">
+                <div class="modal-body bg-{{serviceUser.mode}}">
+
+                    <div class="mb-3">
+                        <label class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Name</label>
+                        <input type="text" formControlName="Name"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Price</label>
+                        <input type="text" formControlName="Price"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Image</label>
+                        <input type="text" formControlName="Image"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1"
+                            class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Details</label>
+                        <input type="text" formControlName="Details"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1"
+                            class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Category</label>
+                        <input type="text" formControlName="Category"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1"
+                            class="form-label text-{{serviceUser.modeSideEffect}} fw-light">Product Stock</label>
+                        <input type="text" formControlName="Stock"
+                            class="form-control bg-{{serviceUser.mode}} text-{{serviceUser.modeSideEffect}} fw-light">
+                    </div>
+                </div>
+                <div class="modal-footer bg-{{serviceUser.mode}}">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal" (click)="onUpdate()"
+                        [disabled]="!editForm.valid">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row row-cols-1 row-cols-md-5 g-5">
+    <div class="col mb-4" *ngFor="let item of service.adminProducts; let i = index">
+        <div class="card bg-{{serviceUser.mode}} border border-{{serviceUser.modeSideEffect}} h-100">
+            <img src="{{item.image}}" class="card-img-top p-1 h-100" alt="...">
+            <div class="card-body text-{{serviceUser.modeSideEffect}}">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text">{{item.details}}</p>
+                <p class="card-text">Price: {{item.price | currency: 'INR' : 'symbol' : '1.0-0'}}</p>
+                <button class="btn btn-outline-warning btn-sm text-{{serviceUser.modeSideEffect}} fw-light rounded"
+                    (click)="showDataOnUpdate(item.id)" data-bs-toggle="modal" data-bs-target="#exampleModalEdit">
+                    Edit
+                </button>
+                <button
+                    class="btn btn-outline-secondary btn-sm text-{{serviceUser.modeSideEffect}} fw-light mx-2 rounded"
+                    (click)="onDelete(item.id)">
+                    Delete
+                </button>
+
+                <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-{{serviceUser.modeSideEffect}} text-{{serviceUser.mode}}">
+                    {{item.category}}
+                </span>
+
+                <div class="progress mt-2 border border-{{serviceUser.modeSideEffect}} bg-{{serviceUser.mode}}"
+                    role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                        [style.width]="item.stock+'%'">Stock: {{item.stock}}/100</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

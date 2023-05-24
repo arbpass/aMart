@@ -1,0 +1,85 @@
+<div class="bg-{{service.mode}} pt-3 pb-3 min-vh-100">
+    <!--Customer navbar-->
+    <ul class="nav justify-content-center mb-4" *ngIf="service.loggedIn">
+        <li class="nav-item mx-2">
+            <a routerLink="/"
+                class="nav-link text-{{service.modeSideEffect}} btn btn-outline-info badge rounded-pill fs-6 fw-light"
+                aria-current="page">
+                <fa-icon [icon]="faAt"></fa-icon> Mart
+            </a>
+        </li>
+        <li class="nav-item mx-2">
+            <a routerLink="/orders"
+                class="nav-link text-{{service.modeSideEffect}} btn btn-outline-success badge rounded-pill fs-6 fw-light">
+                <fa-icon [icon]="faTruck"></fa-icon> : Orders
+            </a>
+        </li>
+        <li class="nav-item mx-2">
+            <a routerLink="/cart"
+                class="nav-link text-{{service.modeSideEffect}} btn btn-outline-primary badge rounded-pill fs-6 fw-light">
+                <fa-icon [icon]="faCartShopping"></fa-icon> : {{service.cartList.length}}
+            </a>
+        </li>
+        <li class="nav-item mx-2" *ngIf="service.mode == 'dark'">
+            <button class="nav-link text-warning btn btn-outline-light badge rounded-pill fs-6 fw-light"
+                (click)="changeMode()">
+                <fa-icon [icon]="faSun"></fa-icon> : Light Mode
+            </button>
+        </li>
+        <li class="nav-item mx-2" *ngIf="service.mode == 'light'">
+            <button class="nav-link text-primary btn btn-outline-dark badge rounded-pill fs-6 fw-light"
+                (click)="changeMode()">
+                <fa-icon [icon]="faMoon"></fa-icon> : Dark Mode
+            </button>
+        </li>
+        <li class="nav-item mx-2">
+            <a (click)="onLogout()"
+                class="nav-link text-{{service.modeSideEffect}} btn btn-outline-danger badge rounded-pill fs-6 fw-light">
+                <fa-icon [icon]="faRightFromBracket"></fa-icon> : Logout
+            </a>
+        </li>
+    </ul>
+
+
+
+    <!--Admin navbar-->
+    <ul class="nav justify-content-center mb-4" *ngIf="serviceAdmin.adminLoggedIn">
+        <li class="nav-item mx-2">
+            <a routerLink="/admin" class="nav-link text-{{service.modeSideEffect}} btn btn-outline-info badge rounded-pill fs-6 fw-light"
+                aria-current="page">
+                <fa-icon [icon]="faAt"></fa-icon> Mart
+            </a>
+        </li>
+        <li class="nav-item mx-2">
+            <a routerLink="/adminOrders"
+                class="nav-link text-{{service.modeSideEffect}} btn btn-outline-success badge rounded-pill fs-6 fw-light">
+                <fa-icon [icon]="faTruck"></fa-icon> : All Orders
+            </a>
+        </li>
+        <li class="nav-item mx-2" *ngIf="service.mode == 'dark'">
+            <button class="nav-link text-warning btn btn-outline-light badge rounded-pill fs-6 fw-light"
+                (click)="changeMode()">
+                <fa-icon [icon]="faSun"></fa-icon> : Light Mode
+            </button>
+        </li>
+        <li class="nav-item mx-2" *ngIf="service.mode == 'light'">
+            <button class="nav-link text-primary btn btn-outline-dark badge rounded-pill fs-6 fw-light"
+                (click)="changeMode()">
+                <fa-icon [icon]="faMoon"></fa-icon> : Dark Mode
+            </button>
+        </li>
+        <li class="nav-item mx-2">
+            <a (click)="onLogout()" class="nav-link text-{{service.modeSideEffect}} btn btn-outline-danger badge rounded-pill fs-6 fw-light">
+                <fa-icon [icon]="faRightFromBracket"></fa-icon> : Logout
+            </a>
+        </li>
+    </ul>
+
+
+    <div class="container text-light">
+        <router-outlet></router-outlet>
+    </div>
+
+    
+
+</div>

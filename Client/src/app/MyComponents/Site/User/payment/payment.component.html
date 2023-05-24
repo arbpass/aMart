@@ -1,0 +1,41 @@
+<div class="d-flex align-items-center justify-content-center">
+    <div class="p-2 m-2 text-white shadow rounded-2 w-50">
+        <span class="h3 text-{{this.service.modeSideEffect}}">Payment Details</span><hr>
+
+        <div class="list-group">
+            <div class="list-group-item list-group-item-action bg-{{this.service.mode}} text-{{this.service.modeSideEffect}} mb-2" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1 text-info"><fa-icon [icon]="faFaceSmileWink"></fa-icon> : Name</h5>
+                    <small>few seconds ago</small>
+                </div>
+                <p class="mb-1">{{this.service.payOrder.name}}</p>
+                <small>And some small print.</small>
+            </div>
+            <div class="list-group-item list-group-item-action bg-{{this.service.mode}} text-{{this.service.modeSideEffect}} mb-2">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1 text-info"><fa-icon [icon]="faEnvelope"></fa-icon> : Email</h5>
+                    <small class="text-body-secondary">few seconds ago</small>
+                </div>
+                <p class="mb-1">{{this.service.payOrder.email}}</p>
+                <small class="text-body-secondary">And some muted small print.</small>
+            </div>
+            <div class="list-group-item list-group-item-action bg-{{this.service.mode}} text-{{this.service.modeSideEffect}} mb-2">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1 text-info"><fa-icon [icon]="faPhone"></fa-icon> : Phone No.</h5>
+                    <small class="text-body-secondary">few seconds ago</small>
+                </div>
+                <p class="mb-1">{{this.service.payOrder.phoneNumber}}</p>
+                <small class="text-body-secondary">And some muted small print.</small>
+            </div>
+            <div class="list-group-item list-group-item-action bg-{{this.service.mode}} text-{{this.service.modeSideEffect}} mb-2">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1 text-info"><fa-icon [icon]="faIndianRupeeSign"></fa-icon> : Amount</h5>
+                    <small class="text-body-secondary">few seconds ago</small>
+                </div>
+                <p class="mb-1">{{this.service.payOrder.amount/100 | currency: 'INR' : 'symbol' : '1.0-0'}}</p>
+                <small class="text-body-secondary">And some muted small print.</small>
+            </div>
+            <button class="btn btn-danger w-100" (click)="proceed()">Pay Now</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="container mt-5 w-50">
+    <form [formGroup]="registerForm" #form="ngForm">
+        <div class="mb-3">
+            <label class="form-label text-{{service.modeSideEffect}}">Username</label>
+            <input type="text" formControlName="Username" class="form-control bg-{{service.mode}} text-{{service.modeSideEffect}}"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label class="form-label text-{{service.modeSideEffect}}">Email</label>
+            <input type="text" formControlName="Email" class="form-control bg-{{service.mode}} text-{{service.modeSideEffect}}" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label class="form-label text-{{service.modeSideEffect}}">Phone Number</label>
+            <input type="text" formControlName="Phone" class="form-control bg-{{service.mode}} text-{{service.modeSideEffect}}"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-{{service.modeSideEffect}}">Password</label>
+            <input type="password" formControlName="Password" class="form-control bg-{{service.mode}} text-{{service.modeSideEffect}}">
+        </div>
+        <a class="text-secondary text-decoration-none" routerLink="/login">If already registered, click here!</a><br>
+        <button routerLink="/login" type="button" (click)="onSubmit()" class="btn btn-outline-{{service.modeSideEffect}} mt-2" [disabled]="!registerForm.valid">Register</button>
+    </form>
+</div>

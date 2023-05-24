@@ -1,0 +1,26 @@
+<div class="mb-3 pointer-cursor text-center mb-5" (click)="onClickCategory()">
+    <a routerLink="/" class="badge bg-{{service.modeSideEffect}} text-danger mx-2 rounded-pill text-decoration-none fs-6">General</a>
+    <a routerLink="{{item.value}}" class="badge bg-{{service.modeSideEffect}} text-danger mx-2 rounded-pill text-decoration-none fs-6"
+        *ngFor="let item of categories | keyvalue">{{item.key}}</a>
+</div>
+
+
+<div class="row row-cols-1 row-cols-md-5 g-5">
+    <div class="col mb-4" *ngFor="let item of localProducts; let i = index">
+        <div class="card bg-{{service.mode}} border border-{{service.modeSideEffect}} h-100">
+            <img src="{{item.image}}" class="card-img-top p-1 h-100" alt="...">
+            <div class="card-body text-{{service.modeSideEffect}}">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text">{{item.details}}</p>
+                <p class="card-text">Price: {{item.price | currency: 'INR' : 'symbol' : '1.0-0'}}</p>
+                <button class="btn btn-secondary btn-sm text-light fw-light" (click)="addToCart(item)">
+                    <fa-icon [icon]="faCartPlus"></fa-icon> Add to cart
+                </button>
+
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {{item.category}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

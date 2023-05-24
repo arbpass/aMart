@@ -1,0 +1,26 @@
+<table class="table table-hover mt-2">
+    <thead class="table-{{service.mode}}">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order</th>
+            <th scope="col">Total Price</th>
+            <th scope="col">Order Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="text-{{service.modeSideEffect}}" *ngFor="let item of temp; let i = index; let x = index">
+            <th scope="row">{{x+1}}</th>
+            <td>
+                <span *ngFor="let id of item">
+                    <span *ngFor="let product of service.products">
+                        <button class="btn btn-outline-{{service.modeSideEffect}} mb-1 mx-1 btn-sm rounded-pill"
+                            *ngIf="id == product.id">{{product.name}}</button>
+                    </span>
+                </span>
+            </td>
+            <td>{{service.orders[i].orderPrice | currency: 'INR' : 'symbol' : '1.0-0'}}</td>
+            <td class="text-danger">{{service.orders[i].orderTime}}</td>
+            <ng-component [hidden]="true">{{i+1}}</ng-component>
+        </tr>
+    </tbody>
+</table>
